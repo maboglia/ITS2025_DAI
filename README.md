@@ -21,3 +21,8 @@ Repo del corso ITS 2025 Data Analyst e AI Specialist
 - Esercitazioni pratiche
 - Verifica finale
 - Valutazione sulle competenze apprese durante il corso
+
+
+---
+
+- [Link al sito di appunti](https://github.com/maboglia/DataBase)
