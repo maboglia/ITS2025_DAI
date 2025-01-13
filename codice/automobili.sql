@@ -16,6 +16,7 @@ SELECT * FROM automobili;
 
 -- Visualizzare solo marca, modello e prezzo di tutte le auto
 select marca, modello, prezzo from automobili;
+select marca, (modello), prezzo, (prezzo * 1.22) as PREZZO_IC, '22%' as IVA from automobili;
 
 -- Trovare tutte le auto con un prezzo inferiore a 20.000 euro
 select * from automobili where prezzo > 15000 and prezzo < 20000;
@@ -40,3 +41,9 @@ select marca, modello from automobili order by prezzo desc limit 1;
 
 -- Trovare tutte le auto con un prezzo tra 20.000 e 30.000 euro
 select * from automobili where prezzo between 20000 and 30000;
+
+select * from automobili where marca not in ('Fiat', 'Ford');
+select * from automobili where marca LIKE 'F%';
+select * from automobili where marca LIKE '___';
+
+
