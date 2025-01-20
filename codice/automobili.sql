@@ -45,5 +45,6 @@ select * from automobili where prezzo between 20000 and 30000;
 select * from automobili where marca not in ('Fiat', 'Ford');
 select * from automobili where marca LIKE 'F%';
 select * from automobili where marca LIKE '___';
+select * from automobili where marca REGEXP 'DA$';
 
 
